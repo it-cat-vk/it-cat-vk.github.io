@@ -1,0 +1,15 @@
+header, footer, figure
+{
+	border: 1px solid black;
+	padding: 5px;
+}
+figure
+{
+	display: inline-block;
+	width: 200px;
+	height: 250px;
+}
+main
+{
+	margin: 0px 20px;
+}
