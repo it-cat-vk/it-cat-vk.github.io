@@ -3,7 +3,7 @@ header, footer, figure
 	border: 1px solid black;
 	padding: 5px;
 }
-figure
+main figure
 {
 	display: inline-block;
 	width: 200px;
@@ -12,4 +12,28 @@ figure
 main
 {
 	margin: 0px 20px;
+}
+header h1
+{
+	margin-left: 215px;
+}
+header a
+{
+	margin-left: 15px;
+}
+header
+{
+	overflow: hidden;
+}
+.logo
+{
+	background: url("images/logo.jpg") no-repeat;
+	float: left;
+	/* display: inline-block; */
+	min-width: 200px;
+	min-height: 200px;
+}
+.logo
+{
+	/* background-image: url("images/logo.svg"); */
 }
