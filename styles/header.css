@@ -26,4 +26,5 @@ header > nav
 	background: url("../images/logo.svg") no-repeat center;
 	width: 48px;
 	height: 48px;
+	padding: 0px 10px;
 }
