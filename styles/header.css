@@ -27,3 +27,8 @@ header > nav
 	width: 48px;
 	height: 48px;
 }
+main
+{
+	padding: 64px 48px 16px 16px;
+}
+}
