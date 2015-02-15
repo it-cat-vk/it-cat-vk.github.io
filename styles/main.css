@@ -3,7 +3,7 @@ aside
 	position: fixed;
 	right: 0px;
 	background: #dff3f3;
-	width: 170px;
+	width: 64px;
 	height: 100%;
 }
 footer
@@ -12,5 +12,7 @@ footer
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
-	height: 130px;
+	height: 32px;
+	
+	text-align: center;
 }
