@@ -1,15 +1,23 @@
 header
 {
-	background: #54c0ef url("../images/header.png");
+	/* Placing */
 	min-height: 48px;
+	position: fixed;
+	top: 0px;
+
+	/* Decoration */
+	background: #54c0ef url("../images/header.png");
 	font-size: 21px;
 }
 header > nav > a
 {
+	/* Placing */
 	display: inline-block;
-	color: white;
 	margin: 0px 10px;
 	padding: 13px 30px;
+
+	/* Decoration */
+	color: white;
 	text-decoration: none;
 }
 header > nav > a:hover
@@ -22,9 +30,12 @@ header > nav
 }
 .logo
 {
+	/* Placing */
 	float: left;
-	background: url("../images/logo.svg") no-repeat center;
 	width: 48px;
 	height: 48px;
 	padding: 0px 10px;
+	
+	/* Decoration */
+	background: url("../images/logo.svg") no-repeat center;
 }
