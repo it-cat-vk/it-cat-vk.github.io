@@ -8,6 +8,17 @@ main
 	/* Decoration */
 	background: url("../images/background.svg") center 64px no-repeat;
 }
+article
+{
+	/* Placing */
+	width: 100%;
+	padding: 16px;
+	margin: 16px;
+	
+	/* Decoration */
+	border: 1px solid #000099;
+	border-radius: 16px 16px 0px 0px;
+}
 aside
 {
 	/* Placing */
@@ -17,11 +28,11 @@ aside
 	height: 100%;
 	display: inline-block;
 	margin: 48px 0px 0px 0px;
-	vertical-align: bottom;
 	z-index: 3;
 
 	/* Decoration */
 	background: rgba(175, 221, 235, 0.1);
+	vertical-align: bottom;
 }
 aside:hover
 {
