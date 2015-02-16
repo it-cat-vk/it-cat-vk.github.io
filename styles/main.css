@@ -15,7 +15,7 @@ aside
 	z-index: 4;
 
 	/* Decoration */
-	background: #dff3f3 rgba(0.87, 0.95, 0.95, 0.4);
+	background: #dff3f3 url("../images/sidebg.png");
 }
 footer
 {
