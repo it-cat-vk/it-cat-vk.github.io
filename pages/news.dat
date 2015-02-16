@@ -1,0 +1,19 @@
+<?php
+echo("
+		<h1>Новости</h1>
+");
+$news = load("news");
+$n = sizeof($new_authors)
+for($i = 0; $i < $n; ++$i)
+{
+	echo("
+		<article>
+			<h2>".$ns[$i]."</h2>
+".$nt[$i]."
+			<div>
+".$na[$i]."
+			</div>
+		</article>
+");
+}
+?>
