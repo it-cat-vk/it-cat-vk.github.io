@@ -15,6 +15,7 @@ aside
 	right: 0px;
 	width: 64px;
 	height: 100%;
+	display: inline-block;
 	margin: 48px 0px 0px 0px;
 	vertical-align: bottom;
 	z-index: 3;
