@@ -6,7 +6,7 @@ main
 	margin: 0px 16px;
 	
 	/* Decoration */
-	background: url("../images/background.svg") center top no-repeat;
+	background: url("../images/background.svg") center 64px no-repeat;
 }
 aside
 {
