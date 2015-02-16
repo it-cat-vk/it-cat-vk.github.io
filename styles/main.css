@@ -40,13 +40,12 @@ a.top-button
 {
 	/* Placing */
 	position: fixed;
-	bottom: 0px;
 	right: 0px;
+	bottom: 0px;
 	display: block;
 	margin: 0px;
-	padding: ;
 	height: 78px;
-	width:  100%;
+	width:  64px;
 	opacity: 0;
 
 	/* Decoration */
