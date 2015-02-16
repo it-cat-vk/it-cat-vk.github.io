@@ -30,7 +30,6 @@ aside
 	width: 64px;
 	height: 76px;
 	display: inline-block;
-	margin: 48px 0px 0px 0px;
 	padding: 0px;
 	z-index: 3;
 
@@ -39,18 +38,19 @@ aside
 	vertical-align: bottom;
 
 	/* Dynamic */
-	transition: all 78 0.2s 0.2s ease-in-out;
+	transition: all 78 0.5s 0.5s ease-in-out;
 }
 aside:hover
 {
 	height: 100%;
-	background: rgba(175, 221, 235, 0.4);	
+	margin: 48px 0px 0px 0px;
+	background: rgba(175, 221, 235, 0.4);
 }
 
 a.top-button
 {
 	/* Placing */
-	display: inline-block;
+	display: block;
 	margin: 0px 2px 16px 2px;
 
 	/* Decoration */
