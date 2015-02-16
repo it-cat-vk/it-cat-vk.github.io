@@ -1,4 +1,4 @@
-<?php echo("Hi!");include("header.dat")?><!DOCTYPE html>
+<?php include("header.dat")?><!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">

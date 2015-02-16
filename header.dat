@@ -1,10 +1,7 @@
 <?php
-
-echo("Try?");
-
 function load($path)
 {
-	$files = {};
+	$files = Array();
 	if(is_dir("pages") && $dh = opendir("pages"))
 	{
 		while(($fn = readdir($dh)) !== false)
