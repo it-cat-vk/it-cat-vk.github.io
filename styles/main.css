@@ -15,6 +15,7 @@ article
 	margin: 16px;
 	
 	/* Decoration */
+	background: rgba(255, 255, 255, 0.5);
 	border: 1px solid #000099;
 	border-radius: 16px 0px 0px 0px;
 }
