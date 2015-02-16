@@ -1,9 +1,10 @@
 header
 {
 	/* Placing */
-	min-height: 48px;
 	position: fixed;
 	top: 0px;
+	min-height: 48px;
+	width: 100%;
 
 	/* Decoration */
 	background: #54c0ef url("../images/header.png");
