@@ -8,7 +8,7 @@ header
 	z-index: 4;
 
 	/* Decoration */
-	background: #54c0ef url("../images/header.png");
+	background: #54c0ef url("../images/header.png") no-repeat;
 	font-size: 21px;
 }
 header > nav
