@@ -28,7 +28,7 @@ aside
 	right: 0px;
 	bottom: 0px;
 	width: 64px;
-	height: 76px;
+	height: 100%;
 	display: inline-block;
 	margin: 48px 0px 0px 0px;
 	padding: 0px;
@@ -44,7 +44,7 @@ a.top-button
 	margin: 0px;
 	height: 78px;
 	width:  100%;
-	opacity: none;
+	opacity: 0;
 
 	/* Decoration */
 	background: rgba(175, 221, 235, 0);
@@ -59,8 +59,8 @@ a.top-button
 aside:hover > a
 {
 	height: 100%;
-	opacity: 40%;
-	background: rgba(175, 221, 235, 0.4) url("../images/fist.svg") center bottom=16px no-repeat;
+	opacity: 0.4;
+	background: rgba(175, 221, 235, 0.4)/* url("../images/fist.svg") center bottom=16px no-repeat*/;
 }
 
 footer
