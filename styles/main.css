@@ -6,11 +6,16 @@ main
 }
 aside
 {
+	/* Placing */
 	position: fixed;
 	right: 0px;
-	background: #dff3f3;
 	width: 64px;
 	height: 100%;
+	margin: 48px 0px 0px 0px;
+	z-index: 4;
+
+	/* Decoration */
+	background: #dff3f3 rgba(0.87, 0.95, 0.95, 0.4);
 }
 footer
 {
