@@ -42,12 +42,12 @@ a.top-button
 	/* Placing */
 	display: block;
 	margin: 0px;
-	height: 100%;
+	height: 78px;
 	width:  100%;
 	opacity: none;
 
 	/* Decoration */
-	background: rgba(175, 221, 235, 0.4) url("../images/fist.svg") center bottom=16px no-repeat;
+	background: rgba(175, 221, 235, 0);
 
 	/* Dynamic */
 	        transition: all 0.5s ease-in-out;
@@ -56,9 +56,11 @@ a.top-button
 	-webkit-transition: all 0.5s ease-in-out;
 }
 
-a.top-button:hover
+aside:hover > a
 {
-	
+	height: 100%;
+	opacity: 40%;
+	background: rgba(175, 221, 235, 0.4) url("../images/fist.svg") center bottom=16px no-repeat;
 }
 
 footer
