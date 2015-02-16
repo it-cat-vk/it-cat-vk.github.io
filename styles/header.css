@@ -11,9 +11,6 @@ header
 	/* Decoration */
 	background: #54c0ef url("../images/header.png") repeat-x;
 	font-size: 21px;
-}
-header > nav
-{
 	text-align: justify;
 }
 header > nav > a
