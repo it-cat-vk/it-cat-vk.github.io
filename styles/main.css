@@ -2,8 +2,8 @@
 main
 {
 	/* Placing */
-	padding: 48px 64px 0px 0px;
 	margin: 0px 16px;
+	padding: 48px 64px 0px 0px;
 	
 	/* Decoration */
 	background: url("../images/background.svg") center center no-repeat fixed;
@@ -30,12 +30,24 @@ aside
 	width: 64px;
 	height: 76px;
 	display: inline-block;
+	margin: 48px 0px 0px 0px;
 	padding: 0px;
 	z-index: 3;
 
-	/* Decoration */
-	background: rgba(175, 221, 235, 0.1);
 	vertical-align: bottom;
+}
+
+a.top-button
+{
+	/* Placing */
+	display: block;
+	margin: 0px;
+	height: 100%;
+	width:  100%;
+	opacity: none;
+
+	/* Decoration */
+	background: rgba(175, 221, 235, 0.4) url("../images/fist.svg") center bottom=16px no-repeat;
 
 	/* Dynamic */
 	        transition: all 0.5s ease-in-out;
@@ -43,21 +55,10 @@ aside
 	   -moz-transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
 }
-aside:hover
-{
-	height: 100%;
-	margin: 48px 0px 0px 0px;
-	background: rgba(175, 221, 235, 0.4);
-}
 
-a.top-button
+a.top-button:hover
 {
-	/* Placing */
-	display: block;
-	margin: 0px 2px 16px 2px;
-
-	/* Decoration */
-	background: url("../images/fist.svg");
+	
 }
 
 footer
