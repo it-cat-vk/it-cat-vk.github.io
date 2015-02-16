@@ -1,23 +1,34 @@
 <?php
 function load($path)
 {
-	$files = Array();
-	if(is_dir("pages") && $dh = opendir("pages"))
+	$files = array();
+	if(is_dir($path) && $dh = opendir($path))
 	{
 		while(($fn = readdir($dh)) !== false)
 		{
-			$files[] = $fn;
+			if($fn != "." && $fn != "..")
+			{
+				$files[] = $fn;
+			}
 		}
 		closedir($dh);
 	}
-	else
-	{
-		echo("Error opening directory: ".$path);
-		exit;
-	}
+	return $files;
 }
 
 $page = $_GET["page"];
+if(empty($page))
+{
+	header("Location: /?page=main");
+	exit;
+}
+$pg = $_GET["pg"];
+$num = $_GET["num"];
+if(empty($num))
+{
+	$num = 10;
+}
+
 $pagefie = "";
 if(is_dir("pages") && $dh = opendir("pages"))
 {
@@ -25,7 +36,7 @@ if(is_dir("pages") && $dh = opendir("pages"))
 	{
 		if($fn == $page. ".dat")
 		{
-			$pagefile = $fn;
+			$pagefile = "pages/".$fn;
 		}
 	}
 	closedir($dh);

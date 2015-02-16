@@ -1,19 +1,33 @@
 <?php
+$n = sizeof(load("news"));
 echo("
-		<h1>Новости</h1>
+		<h1>Новости (".$n.")</h1>
 ");
-$news = load("news");
-$n = sizeof($new_authors)
-for($i = 0; $i < $n; ++$i)
+
+for($i = $n - 1 + $num * $pg; $i >= 0 && $i >= $num * ($pg - 1); --$i)
 {
-	echo("
+	$fname = "news/n".($i+1).".dat";
+	if(!file_exists($fname))
+	{
+		echo("<article><h2>Тут кто-то перегрыз провод!</h2></article>");
+		continue;
+	}
+	include($fname);
+	if($nd[$i])
+	{
+		echo("
+		<article><h2>Тут кто-то нагадил :(</h2></article>
+		");
+	}
+	else
+	{
+		echo("
 		<article>
 			<h2>".$ns[$i]."</h2>
-".$nt[$i]."
-			<div>
-".$na[$i]."
-			</div>
+".$ntext[$i]."
+			<div>Выложил ".$na[$i]." в <time datetime=\"".date("c", $nt[$i])."\">".date("r", $nt[$i])."</time></div>
 		</article>
 ");
+	}
 }
 ?>

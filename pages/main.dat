@@ -1,4 +1,3 @@
 <?php
-echo("Hi!\n");
-include("news.dat");
+include("pages/news.dat");
 ?>

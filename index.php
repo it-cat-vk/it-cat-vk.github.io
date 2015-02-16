@@ -23,7 +23,8 @@
 			<a href="#" class="top-button" onclick="top()"></a>
 		</aside>
 		<main>
-<?php echo("DEBUG: including ".$pagefile);include($pagefile); ?>
+<?php include($pagefile); ?>
+
 		</main>
 		<footer>
 			&copy; IT-кот, 2015
