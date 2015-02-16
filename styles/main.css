@@ -1,8 +1,12 @@
 
 main
 {
+	/* Placing */
 	padding: 48px 64px 0px 0px;
 	margin: 0px 16px;
+	
+	/* Decoration */
+	background: url("../background.svg");
 }
 aside
 {
