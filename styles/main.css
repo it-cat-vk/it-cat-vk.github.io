@@ -11,13 +11,12 @@ main
 article
 {
 	/* Placing */
-	width: 100%;
 	padding: 16px;
 	margin: 16px;
 	
 	/* Decoration */
 	border: 1px solid #000099;
-	border-radius: 16px 16px 0px 0px;
+	border-radius: 16px 0px 0px 0px;
 }
 aside
 {
