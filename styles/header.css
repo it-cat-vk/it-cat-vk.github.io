@@ -11,6 +11,13 @@ header
 	/* Decoration */
 	background: #54c0ef url("../images/header.png") repeat-x;
 	font-size: 21px;
+}
+header > nav
+{
+	/* Placing */
+	display: inline-block;
+
+	/* Decoration */
 	text-align: justify;
 }
 header > nav > a
