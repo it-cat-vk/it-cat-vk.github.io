@@ -12,10 +12,15 @@ aside
 	width: 64px;
 	height: 100%;
 	margin: 48px 0px 0px 0px;
+	vertical-align: bottom;
 	z-index: 4;
 
 	/* Decoration */
-	background: url("../images/sidebg.png");
+	background: rgba(175, 221, 235, 0.1);
+}
+aside:hover
+{
+	background: rgba(175, 221, 235, 0.4);	
 }
 footer
 {
