@@ -5,6 +5,7 @@ header
 	top: 0px;
 	min-height: 48px;
 	width: 100%;
+	z-index: 4;
 
 	/* Decoration */
 	background: #54c0ef url("../images/header.png");
