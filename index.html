@@ -30,8 +30,35 @@
 			<figure></figure>
 			<figure></figure>
 			<article>
+				<h2>Статья специально для Димы</h2>
+				<p>Первый абзац. Тут может быть так много текста, что в исходном коде можно ставить переносы строк.
+				А можно и не ставить, по желанию. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. И
+				прочая бла-бал-бала.</p>
+				<p>Второй такой же абзац.</p>
+				<h3>Подраздел</h3>
+				<p>И тут абзацы.</p>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+				<h3>Описание</h3>
+				<p>Вообщем, правило простое: если где-то встречается подряд лишь один элемент, — он и повторяется
+				один раз. Если два раза попадается, то его может быть в этом месте сколько угодно раз.<p>
+				<h3>О тегах</h3>
+				<p>Вообще в HTML5 есть ещё тег section. Предлагаю его вместо article использовать для предпросмотра
+				статьи, или там, где по смыслу предполагается много таких на одной странице.<p>
+				
+				<details open>
+				<!-- если честно, я сомневаюсь в корректности применения здесь этого тега -->
+					<summary>Информация о публикации</summary>
+					<address>
+						<p>Автор: <a href="/authors/name.html" rel="author">Имя автора</a></p>
+						<p>Опубликовал: <a href="/authors/publisher.html">Кто опубликовал</a></p>
+					</address>
+					<time datetime="2015-02-16T22:39:33+03:00" title="16.02.2015 22:39">Сегодня пару часов назад</time>
+					<!-- Содержимое этого тега будет автоматически обновлятся через JavaScript,
+						 основываясь на аттрибуте datetime -->
+				</details>
+			</article>
+			<article>
 				<h2>Классическая рыба</h2>
-				<hr>
 				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 				Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 				Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis
@@ -108,7 +135,6 @@
 			</article>
 			<article>
 				<h2>Оригинальный отрывок из трактата Цицерона</h2>
-				<hr>
 				<p><b>[32]</b> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque
 				laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto
 				beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur
@@ -132,7 +158,6 @@
 			</article>
 			<article>
 				<h2>Видео для разбавлеия нудного контента</h2>
-				<hr>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/zbYGU6cdsYU" frameborder="0" allowfullscreen></iframe>
 			</article>
 		</main>
