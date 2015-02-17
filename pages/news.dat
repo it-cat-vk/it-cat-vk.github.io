@@ -4,16 +4,18 @@ echo("
 		<h1>Новости (".$n.")</h1>
 ");
 
-for($i = $n - 1 + $num * $pg; $i >= 0 && $i >= $num * ($pg - 1); --$i)
+$beg = $n - 1 - $num * $pg;
+$end = $n - $num * ($pg + 1);
+
+for($i = $beg; $i >= 0 && $i >= $end; --$i)
 {
 	$fname = "news/n".($i+1).".dat";
 	if(!file_exists($fname))
 	{
-		echo("<article><h2>Тут кто-то перегрыз провод!</h2></article>");
 		continue;
 	}
 	include($fname);
-	if($nd[$i])
+	if($nd != false)
 	{
 		echo("
 		<article><h2>Тут кто-то нагадил :(</h2></article>
@@ -23,11 +25,23 @@ for($i = $n - 1 + $num * $pg; $i >= 0 && $i >= $num * ($pg - 1); --$i)
 	{
 		echo("
 		<article>
-			<h2>".$ns[$i]." [".$i."]</h2>
-".$ntext[$i]."
-			<div>Выложил ".$na[$i]." в <time datetime=\"".date("c", $nt[$i])."\">".date("r", $nt[$i])."</time></div>
+			<h2>".$ns."</h2>
+".$ntext."
+			<div>Выложил ".$na." в <time datetime=\"".date("c", $nt)."\">".date("r", $nt)."</time></div>
 		</article>
 ");
 	}
 }
+
+echo("
+		<nav>На страницу:
+");
+for($i = 0; $i < $n / $num; ++$i)
+{
+	echo("
+			<a class=\"pagenav\" href=\"/?page=news&num=".$num."&pg=".$i."\">".($i + 1)."</a>");
+}
+echo("
+		</nav>
+");
 ?>

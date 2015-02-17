@@ -1,7 +1,7 @@
 <?php
-	$nd[] = false;
-	$nt[] = 1424128073;
-	$na[] = "1";
-	$ns[] = "Test";
-	$ntext[] = "Hello";
+	$nd = false;
+	$nt = 1424166673;
+	$na = "2";
+	$ns = "В эфире рубрика ЭЭЭЭЭКСПЕРИМЕНТЫ!";
+	$ntext = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3MteSlpxCpo\" frameborder=\"0\" allowfullscreen></iframe>";
 ?>

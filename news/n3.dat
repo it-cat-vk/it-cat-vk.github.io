@@ -1,7 +1,7 @@
 <?php
-	$nd[] = false;
-	$nt[] = 1424128059;
-	$na[] = "1";
-	$ns[] = "Test";
-	$ntext[] = "Hello";
+	$nd = false;
+	$nt = 1424164332;
+	$na = "2";
+	$ns = "Может картинки работают?";
+	$ntext = "<img src=\"http://goodoldweb.comuv.com/img_cportal/cool.gif\">";
 ?>
