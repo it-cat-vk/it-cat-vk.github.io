@@ -23,7 +23,7 @@ for($i = $n - 1 + $num * $pg; $i >= 0 && $i >= $num * ($pg - 1); --$i)
 	{
 		echo("
 		<article>
-			<h2>".$ns[$i]."</h2>
+			<h2>".$ns[$i]." [".$i."]</h2>
 ".$ntext[$i]."
 			<div>Выложил ".$na[$i]." в <time datetime=\"".date("c", $nt[$i])."\">".date("r", $nt[$i])."</time></div>
 		</article>

@@ -1,0 +1,7 @@
+<?php
+	$nd[] = false;
+	$nt[] = 1424128249;
+	$na[] = "1";
+	$ns[] = "Test2";
+	$ntext[] = "Hello2";
+?>
