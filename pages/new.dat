@@ -1,0 +1,32 @@
+<?php
+$post = $_GET["post"] + 0;
+echo("
+<section>");
+if(is_file("news/n".$post.".dat"))
+{
+	include("news/n".$post.".dat");
+	if($nd != false)
+	{
+		echo("
+	<h2>Упс... Тут кто-то нагадил :(</h2>
+	Похоже, этот пост был удалён, по той или иной причине. Сожалеем об этом.");
+	}
+	else
+	{
+		$ectext = $ntext;
+		echo("
+	<h2>".$ns."</h2>
+".$ectext."
+	<div>Выложил ".$na." в <time datetime=\"".date("c", $nt)."\">".date("r", $nt)."</time></div>
+");
+	}
+}
+else
+{
+	echo("
+	<h2>Упс... Тут какой-то обрывок провода... Это было что-то важное?</h2>
+	Пост не найден. Кто-то где-то накосячил?");
+}
+echo("
+</section>");
+?>

@@ -1,0 +1,10 @@
+<section>
+	<form method="GET" action="action.php">
+		<input type="hidden" name="target" value="profiles" />
+		<input type="hidden" name="id" value="2" />
+		<input type="hidden" name="page" value="<?php echo($_GET["npage"]);?>" />
+		<p>Логин: <input type="text" name="login" /></p>
+		<p>Пароль: <input type="password" name="password" /></p>
+		<p><input type="submit" value="Зарегистрировать"></p>
+	</form>
+</section>
