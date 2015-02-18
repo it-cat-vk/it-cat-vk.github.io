@@ -9,11 +9,11 @@
 	</head>
 	<body>
 		<header>
-			<div class="logo"></div>
+			<a href="/?page=main"><div class="logo"></div></a>
 			<nav>
-				<a href="/">Главная</a>
-				<a href="/about.html">О нас</a>
-				<a href="/news.html">Новости</a>
+				<a href="/?page=main">Главная</a>
+				<a href="/?page=new&post=15">О нас</a>
+				<a href="/?page=news">Новости</a>
 				<a href="/usable.html">Полезное</a>
 				<a href="/fag.html">FAQ</a>
 			</nav>

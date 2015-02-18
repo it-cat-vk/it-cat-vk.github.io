@@ -1,38 +1,50 @@
+
 header
 {
 	/* Placing */
 	position: fixed;
 	top: 0px;
-	min-height: 48px;
+	height: 50px;
 	width: 100%;
 	display: inline-block;
 	z-index: 4;
 
 	/* Decoration */
 	background: #54c0ef url("../images/header.png") repeat-x;
-	font-size: 21px;
+	font-size: 19px;
+	line-height: 1.19;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+
 header > nav
 {
 	/* Placing */
 	display: inline-block;
-	padding-left: 64px;
+	padding-left: 48px;
 }
+
 header > nav > a
 {
 	/* Placing */
 	display: inline-block;
-	padding: 13px 30px;
+	padding: 14px 25px;
 
 	/* Decoration */
 	color: white;
 	text-decoration: none;
+
+	/* Dynamic */
+	        transition: all 0.5s ease-in-out;
+	     -o-transition: all 0.5s ease-in-out;
+	   -moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
 }
+
 header > nav > a:hover
 {
 	background: rgba(0, 0, 0, 0.1);
 }
+
 .logo
 {
 	/* Placing */
@@ -40,7 +52,8 @@ header > nav > a:hover
 	width: 48px;
 	height: 48px;
 	padding: 0px 10px;
-	
+	margin: 1px 0 1px 0;
+
 	/* Decoration */
 	background: url("../images/logo.svg") no-repeat center;
 }
