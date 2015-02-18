@@ -1,0 +1,5 @@
+<?php
+	$login="";
+	$nickname="";
+	$phash="$2y$10$RKh5feFJJC6vqmY.Ik2QkeWpue67r1HPW4umoJB1CT2BevzNAIsy6";
+?>

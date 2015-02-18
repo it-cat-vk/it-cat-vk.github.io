@@ -4,7 +4,7 @@ main
 	/* Placing */
 	margin: 0px 16px;
 	padding: 48px 64px 0px 0px;
-	
+
 	/* Decoration */
 	background: url("../images/background.svg") center center no-repeat fixed;
 }
@@ -14,7 +14,7 @@ article
 	/* Placing */
 	padding: 16px;
 	margin: 16px;
-	
+
 	/* Decoration */
 	background: rgba(255, 255, 255, 0.5);
 	border: 1px solid #000099;
@@ -65,7 +65,13 @@ aside:hover > a
 
 footer
 {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
 	background: #8e9396;
+
 	width: 100%;
 	height: 32px;
 	
