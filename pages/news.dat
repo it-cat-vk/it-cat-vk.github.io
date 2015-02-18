@@ -29,7 +29,7 @@ for($i = $beg; $i >= 0 && $i >= $end; --$i)
 //			$ectext .= " <...>";
 		$ectext = $ntext;
 		echo("
-	<h2><a href=\"\\?page=new&post=".($i + 1)."\">".$ns."</a></h2>
+	<h2><a href=\"/?page=new&post=".($i + 1)."\">".$ns."</a></h2>
 ".$ectext."
 	<div>Выложил ".$na." в <time datetime=\"".date("c", $nt)."\">".date("r", $nt)."</time></div>
 ");
