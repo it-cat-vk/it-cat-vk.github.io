@@ -1,7 +1,0 @@
-<?php
-	$nd = false;
-	$nt = 1424166673;
-	$na = "2";
-	$ns = "В эфире рубрика ЭЭЭЭЭКСПЕРИМЕНТЫ!";
-	$ntext = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3MteSlpxCpo\" frameborder=\"0\" allowfullscreen></iframe>";
-?>
