@@ -1,8 +1,9 @@
+<?php defined("IT_CAT_CMS_RUNNING") or die() ?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>IT-КОТ</title>
+		<title><?php echo $page->title ?> — IT-КОТ</title>
 		<link href="styles/normalize.css" rel="stylesheet">
 		<link href="styles/header.css" rel="stylesheet">
 		<link href="styles/main.css" rel="stylesheet">
@@ -23,12 +24,9 @@
 			<a href="#" class="top-button" onclick="top()"></a>
 		</aside>
 		<main>
-			<figure></figure>
-			<figure></figure>
-			<figure></figure>
-			<figure></figure>
-			<figure></figure>
-			<figure></figure>
+			<script language="php">
+				echo "uuu"
+			</script>
 			<article>
 				<h2>Статья специально для Димы</h2>
 				<p>Первый абзац. Тут может быть так много текста, что в исходном коде можно ставить переносы строк.
