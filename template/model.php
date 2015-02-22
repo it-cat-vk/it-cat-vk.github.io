@@ -18,15 +18,13 @@
 				<a href="/usable.html">Полезное</a>
 				<a href="/fag.html">FAQ</a>
 			</nav>
-			<div class"menu-button"></div>
+			<div class="menu-button"></div>
 		</header>
 		<aside>
 			<a href="#" class="top-button" onclick="top()"></a>
 		</aside>
 		<main>
-			<script language="php">
-				echo "uuu"
-			</script>
+			<?php $page->show_content() ?>
 			<article>
 				<h2>Статья специально для Димы</h2>
 				<p>Первый абзац. Тут может быть так много текста, что в исходном коде можно ставить переносы строк.
